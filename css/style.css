@@ -31,6 +31,10 @@ body {
     margin-top: 1em;
 }
 
+.navIcon a:hover {
+    color: orange;
+}
+
 .navIcon div {
     display: flex;
     justify-content: center;
@@ -98,8 +102,12 @@ body {
 .packages-items {
     display: flex;
     justify-content: center;
+}
+
+.packages-items .col {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .packages-items h1 {
@@ -127,6 +135,11 @@ body {
     font-weight: bold;
 }
 
+.buttonPackages:hover {
+    color: white;
+    background-color: lightcoral;
+}
+
 /* Section 4 - Outils */
 
 .container-outils {
@@ -149,12 +162,20 @@ body {
 .outils-items {
     display: flex;
     justify-content: center;
+}
+
+.outils-items .col {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .outils h1 {
     font-size: 2em;
+}
+
+#lastOutil {
+    line-height: 4.5em;
 }
 
 .outils-items p {
@@ -178,7 +199,33 @@ body {
     font-weight: bold;
 }
 
+.buttonOutils:hover {
+    background-color: dodgerblue;
+    color: black;
+}
+
 /* Footer */
 
-/* background-color: rgb(57, 58, 59) */
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 58, 59);
+    height: 300px;
+    color: white;
+}
+
+.iconPacks img, .iconOutils img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.iconSocialMedia img {
+    width: 23.3%;
+    cursor: pointer;
+}
+
+.textFooter {
+    align-self: flex-end;
+}
 
