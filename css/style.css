@@ -1,3 +1,8 @@
+* {
+    font-family: 'Monda', sans-serif;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -45,3 +50,43 @@ body {
 .container-home img {
     width: 100%;
 }
+
+/* Section 2 - Communication */
+
+.container-communication {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.image-communication {
+    align-self: flex-start;
+    margin-left: 20em;
+}
+
+.about {
+    width: 50%;
+}
+
+.about p {
+    white-space: pre-line;
+}
+
+/* Section 3 - Packages */
+
+.container-packages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+    background-color: rgb(51, 77, 92);
+}
+
+.packages {
+    display: flex;
+    white-space: pre-line;
+    margin-top: 5em;
+    color: white;
+}
+
