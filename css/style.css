@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- Nav Bar ----- */
+
+.container-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    background-color: black;
+}
+
+.navIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navIcon a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.iconRight img {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+
+/* Section 1 - Home */
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-home img {
+    width: 100%;
+}
