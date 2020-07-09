@@ -4,7 +4,14 @@
 }
 
 body {
-    margin: 0;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12);
     padding: 0;
 }
 
@@ -40,7 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 1em;
+    margin: 0.4em;
 }
 
 /* Section 1 - Home */
@@ -66,10 +73,11 @@ body {
 
 .image-communication {
     align-self: flex-start;
-    margin-left: 25em;
+    margin-left: 7em;
 }
 
 .about {
+    margin-right: 2em;
     width: 50%;
 }
 
@@ -93,10 +101,11 @@ body {
     white-space: pre-line;
     font-size: 1.5rem;
     margin-bottom: 1em;
+    margin-left: 3em;
 }
 
 .packages h1 {
-    margin-left: 5em;
+    margin-left: 2em;
 }
 
 .packages-items {
@@ -119,9 +128,15 @@ body {
 }
 
 .packages-items div {
-    margin-left: 5em;
-    margin-right: 5em;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
     padding-bottom: 5em;
+}
+
+.packages-items img {
+    height: 200px;
+    width: 200px;
 }
 
 .buttonPackages {
@@ -130,7 +145,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 1em 5em;
+    padding: 1em 3em;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -151,12 +166,12 @@ body {
     justify-content: center;
     align-items: center;
     white-space: pre-line;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 1em;
 }
 
 .outils h1 {
-    margin-left: 5em;
+    margin-left: 2em;
 }
 
 .outils-items {
@@ -168,6 +183,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.outils-items .col img {
+    height: 200px;
+    width: 200px;
 }
 
 .outils h1 {
@@ -183,8 +203,8 @@ body {
 }
 
 .outils-items div {
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
     padding-bottom: 5em;
 }
 
@@ -194,7 +214,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 1em 5em;
+    padding: 1em 3em;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -215,13 +235,14 @@ body {
     color: white;
 }
 
-.iconPacks img, .iconOutils img {
-    width: 10%;
-    cursor: pointer;
+.container-footer div {
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
-.iconSocialMedia img {
-    width: 23.3%;
+.iconPacks img, .iconOutils img, .iconSocialMedia img {
+    height: 50px;
+    width: 50px;
     cursor: pointer;
 }
 
